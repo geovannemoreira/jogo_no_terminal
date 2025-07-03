@@ -9,6 +9,16 @@ Aqui você vai ver um pequeno metodo de utilizar laços de repetição e funçõ
 Este projeto foi uma maneira descontraida de exercer minhas habilidades com python, onde eu infundi um pequeno 
 jogo no terminal, onde vou desenvolver ao longo do tempo, o foco é um jogo onde precisa coletar moedas e desviar de obstaculos,
 o projeto inicial é apenas um mapa representado pelo emoji 🟩 e um personagem pelo 👺.
+esta é a saida do terminal:
+----------
+👺🟩🟩🟩🟩
+
+🟩🟩🟩🟩🟩
+
+🟩🟩🟩🟩🟩
+
+----------
+Próxima direção (w, a, s, d): 
 
 
 ## Tecnologias Utilizadas

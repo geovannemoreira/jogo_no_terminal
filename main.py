@@ -1,8 +1,8 @@
 import os
 
 # Tamanho do mapa
-LARGURA = 10
-ALTURA = 5
+LARGURA = 5
+ALTURA = 3
 
 # Posição inicial do jogador
 player = {'nome': 'python', 'x': 0, 'y': 0}
@@ -20,7 +20,7 @@ def andar(direcao):
 while True:
   os.system('clear' if os.name == 'posix' else 'cls')  # Compatível com Windows e Linux/Mac
 
-  print('------------------------')
+  print('----------')
   for y in range(ALTURA):
     for x in range(LARGURA):
         if player['x'] == x and player['y'] == y:
@@ -28,7 +28,7 @@ while True:
         else:
           print('🟩', end='')
     print()  # Nova linha após cada linha do mapa
-  print('------------------------')
+  print('----------')
 
   direcao = input('Próxima direção (w, a, s, d): ').lower()
   
